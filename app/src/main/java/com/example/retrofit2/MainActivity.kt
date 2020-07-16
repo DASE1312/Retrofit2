@@ -1,8 +1,8 @@
 package com.example.retrofit2
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.retrofit2.Futbol.FutbolActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -35,7 +35,8 @@ class MainActivity : AppCompatActivity() {
 
         array"area"
         objecto "parentArea",name"
-          */
+        2  */
+
         mainActivityBtApiFutbol.setOnClickListener({
             var intent=Intent(this,FutbolActivity::class.java)
             startActivity(intent)
