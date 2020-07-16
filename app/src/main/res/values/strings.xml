@@ -2,13 +2,10 @@
     <string name="app_name">Retrofit2</string>
 
     <!--MAin Activity-->
-    <string name="Api_Tiempo">Api Tiempo</string>
-    <string name="Lugares">Lugares</string>
 
-    <!--list_item_tiempo-->
-    <string name="Fecha">Fecha</string>
-    <string name="Temperatura">Temperatura</string>
-    <string name="Humedad">Humedad</string>
+    <string name="Paises_Asosiados">Paises Asosiados</string>
+
+
 
     <!--list_item_paises-->
     <string name="Lugar">Lugar</string>

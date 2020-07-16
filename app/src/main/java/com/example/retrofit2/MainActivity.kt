@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.retrofit2.Futbol.FutbolActivity
-import com.example.retrofit2.Tiempo.TiempoActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -37,12 +36,6 @@ class MainActivity : AppCompatActivity() {
         array"area"
         objecto "parentArea",name"
           */
-
-        mainActivityBtApiTiempo.setOnClickListener({
-            var intent=Intent(this,TiempoActivity::class.java)
-            startActivity(intent)
-        })
-
         mainActivityBtApiFutbol.setOnClickListener({
             var intent=Intent(this,FutbolActivity::class.java)
             startActivity(intent)
