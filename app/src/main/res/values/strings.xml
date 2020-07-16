@@ -8,6 +8,6 @@
 
 
     <!--list_item_paises-->
-    <string name="Lugar">Lugar</string>
+    <string name="Lugar"> Continente </string>
 
 </resources>
